@@ -1,8 +1,8 @@
 /*
 * multi-line comment
 */
-p{ line-height: 1em; }
-h1, h2, h3, h4{
+p{ line-height: 1em }
+h1, h, h3, h4{
     color: orange;
 	font-weight: normal;
 	line-height: 1.1em;
@@ -39,10 +39,10 @@ body{
 	text-align: right;
 	float: right;
 }
-	#nav ul{}
+	#av ul{}
 		#nav ul li{
 			display: inline-block;
-			height: 62px;
+			height: @62px;
 		}
 			#nav ul li a{
 				padding: 20px;
@@ -65,7 +65,7 @@ body{
 	border-bottom: 1px #ccc solid;
 	margin-bottom: 10px;
 }
-	#footer p{
+	#footer p
 		text-align: right;
 		text-transform: uppercase;
 		font-size: 80%;
@@ -73,7 +73,7 @@ body{
 	}
 
 /* multiple styles seperated by a , */
-#content,
+content,
 ul li a{ 
 	box-shadow: 0px 1px 1px #999; 
-	}
+	
